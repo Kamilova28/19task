@@ -1,0 +1,150 @@
+$fontweights:(
+   "regular":400,
+   "medium":500,
+   "bold":900
+  
+);
+$color1:#000000;
+
+$color2:#ffff;
+$color3:#767676 ;
+$fnts:50px;
+$fnts2:14px;
+$fnts3:36px;
+
+@mixin text-buyers{
+font-family: 'Roboto', sans-serif; 
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+@mixin about-us{
+    font-family:'Roboto', sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+
+}
+
+@mixin stranica{
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:$color2 ;
+
+}
+
+@mixin instagram{
+    width: 30px;
+height: 28.3px;
+top: 23px;
+left: 1177px;
+
+}
+
+@mixin eva{
+ font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: map-get($fontweights , bold );
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+
+}
+
+@mixin otzivi{
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 25px;
+    
+
+}
+
+@mixin innov{
+ font-family: 'Roboto', sans-serif ;
+font-size: 50px;
+font-weight: 900;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@mixin goroda{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+@mixin orders{
+
+    background: linear-gradient(270deg, rgba(12, 14, 66, 0.7) 0%, rgba(101, 3, 39, 0.7) 98.16%); 
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 26px;
+   padding-left: 26px;
+   border-radius: 7px;
+}
+
+@mixin ne-znayu-sto-pisat{
+
+    font-family:'Roboto', sans-serif ;
+
+font-size: 50px;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+@mixin textfooter{
+
+    font-family:'Roboto', sans-serif ;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+@mixin materiali{
+
+    margin-bottom: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: 14px;
+
+    font-family:'Roboto', sans-serif ;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}

@@ -1,0 +1,159 @@
+@import "reset.scss";
+@import "variables.scss";
+
+
+
+main{
+background-image: url("file:///C:/Users/kamil/Downloads/1%20block.svg " );
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+
+}
+
+
+header{
+   background:linear-gradient(270deg, rgba(46, 49, 146, 0.70) 0%, rgba(212, 20, 90, 0.70) 98.16%); ;
+  padding: 23px;
+  
+
+  .insta{
+   position: absolute;
+   left: 81%;
+   
+ 
+
+  }
+}
+
+.nav{
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.stranica{
+
+   @include stranica;
+   font-weight: map-get($fontweights , medium )
+};
+
+.icons{
+   color:$color2 ;
+   position: absolute;
+}
+.your-city{
+   color:$color2 ;
+   position: absolute;
+   left: 49%;
+}
+
+.evarugs{
+   display: flex;
+   position: relative;
+   
+
+   .eva{
+  position: absolute;
+  bottom: -2px;
+  left: 116px;
+
+  @include eva;
+
+   }
+  
+}
+
+.nnn{
+   align-items: center;
+}
+
+.otziv{
+
+   color: $color3;
+   
+   right: 4;
+ 
+   @include otzivi;
+}
+
+
+
+
+.kovyor{
+
+   color:$color1 ;
+   
+   
+margin-top: 203px;
+
+   @include innov;
+
+
+   
+}
+.gorod{
+   color: $color3;
+   padding-bottom: 6px;
+   @include goroda;
+}
+
+.order{
+   text-decoration: none;
+   color:$color2 ;
+   
+
+
+   @include orders;
+   
+}
+.cto{
+
+   font-weight: map-get($fontweights , medium );
+  @include ne-znayu-sto-pisat;
+
+}
+
+.box-img{
+   border-radius: 1rem;
+}
+
+.box{
+   margin-top: 3rem;
+   padding-top: 45px;
+   padding-left: 5px;
+   padding-right: 5px;
+  width: 344px;
+  height:400px ;
+  background-color: #fff;
+  
+  border-radius: 1rem;
+
+
+  .text-footer{
+
+   @include textfooter;
+}
+
+
+.footer-heading{
+ 
+   @include materiali;
+}
+
+}
+.kubik{
+
+   width: 100px;
+    height: 55px;
+}
+
+
+
+
+
+
+
+
+
+
